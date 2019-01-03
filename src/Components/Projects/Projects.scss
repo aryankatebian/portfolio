@@ -1,0 +1,28 @@
+.projects {
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.col {
+  background-color: #131313;
+  border: white 1px solid;
+  border-radius: 1%;
+}
+.col a {
+  margin-top: 20px;
+}
+.my-h3 {
+  color: white;
+}
+.mytab {
+  font-size: 2rem;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: #3bc2d3;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: #131313;
+}

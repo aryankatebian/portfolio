@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+@font-face {
+  font-family: "nintendo";
+  src: url("../../Assets/fonts/Ninety-Seven.otf");
+}
+
+.LandingPage {
+  height: 90vh;
+  position: relative;
+  background-image: url(../../Assets/img/landingpage.jpg);
+  background-size: cover;
+  background-blend-mode: screen;
+  margin-top: -20px;
+}
+.title {
+  font-family: "nintendo";
+  color: rgb(236, 236, 236);
+  font-size: 4.5em;
+
+  font-weight: 800;
+  text-align: left;
+  padding-top: 5%;
+  margin-left: 10%;
+  @media screen and (max-width: 414px) {
+    font-size: 3em;
+  }
+  &:hover {
+    animation: glitch 0.5s infinite;
+  }
+
+  @keyframes glitch {
+    from {
+      text-shadow: 0 0px 0px white;
+    }
+    20% {
+      text-shadow: 2px -2px 0px red;
+    }
+    40% {
+      text-shadow: -2px 2px 0px green;
+    }
+    60% {
+      text-shadow: 2px 2px 0px blue;
+    }
+
+    80% {
+      text-shadow: -2px -2px 0px green;
+    }
+    to {
+      text-shadow: 0px 0px 0px white;
+    }
+  }
+}
+.io {
+  height: 15%;
+  width: auto;
+  position: absolute;
+  right: 35%;
+  top: 10%;
+  animation: ease-in-out move 20s infinite;
+  &:hover {
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 991px) {
+    height: 10%;
+  }
+  @media screen and (max-width: 768px) {
+    visibility: hidden;
+  }
+}
+.earth {
+  height: 15%;
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  &:hover {
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 991px) {
+    height: 10%;
+  }
+  @media screen and (max-width: 768px) {
+    visibility: hidden;
+  }
+}
+.moon {
+  height: 4.5%;
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  text-align: center;
+  animation: rotate 20s linear infinite;
+  transform-origin: -90% 182%;
+  @media screen and (max-width: 991px) {
+    height: 2.2%;
+  }
+  @media screen and (max-width: 768px) {
+    visibility: hidden;
+  }
+}
+.jupiter {
+  height: 15%;
+  position: absolute;
+  right: 4%;
+  top: 10%;
+  &:hover {
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 991px) {
+    height: 10%;
+  }
+  @media screen and (max-width: 768px) {
+    visibility: hidden;
+  }
+}
+.ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  @media screen and (max-width: 991px) {
+    visibility: hidden;
+  }
+}
+.holder {
+  height: 60%;
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  @media screen and (max-width: 991px) {
+    visibility: hidden;
+  }
+}
+.rocket {
+  transform: translateX(-75%);
+  height: 40%;
+  position: absolute;
+  right: 0;
+  bottom: 24%;
+
+  @media screen and (max-width: 991px) {
+    visibility: hidden;
+  }
+}
+.bluespan {
+  color: #3bc2d3;
+}
+@keyframes move {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  70% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

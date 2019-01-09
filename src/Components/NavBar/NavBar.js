@@ -10,7 +10,7 @@ class NavBar extends Component {
         <Navbar inverse collapseOnSelect style={{ backgroundColor: "black" }}>
           <Navbar.Header>
             <Navbar.Brand className="logo">
-              <a href="/">
+              <a href="/portfolio">
                 <img
                   src={require("../../Assets/img/alien3.png")}
                   style={{ height: "50px", marginTop: "-15px" }}

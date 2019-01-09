@@ -37,7 +37,7 @@ class AboutMe extends Component {
                 <span className="button__text button__text--bis">
                   <a
                     target="blank"
-                    href="https://drive.google.com/open?id=1fpmHxica7u0k9cdtxbCyTmlwkjXZPZJt"
+                    href="https://drive.google.com/file/d/1wJj13WSxNl1EwgGIH3oakE3MOXSiG1Bk/view"
                   >
                     download C.V
                   </a>

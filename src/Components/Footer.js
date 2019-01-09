@@ -5,7 +5,7 @@ export class Footer extends React.Component {
   render() {
     return (
       <div className="copyright">
-        2018-personal-portfolio © All rights reserved.
+        2019-personal-portfolio © All rights reserved.
       </div>
     );
   }

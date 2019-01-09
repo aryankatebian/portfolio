@@ -17,29 +17,28 @@ class Skills extends Component {
               <Col xs={6}>
                 <div className="skills">
                   <ul>
-                    <li>html5</li>
+                    <li>Html5</li>
                     <li>CSS</li>
-                    <li>sass/less</li>
-                    <li>bootstrap</li>
-                    <li>css animations</li>
-                    <li>javascript</li>
-                    <li>es5/es6</li>
-                    <li>jquery</li>
-                    <li>p5.js</li>
-                    <li>gsap</li>
+                    <li>Sass/Less</li>
+                    <li>Bootstrap</li>
+                    <li>Css Animations</li>
+                    <li>Vanilla Javascript</li>
+                    <li>Es6</li>
+                    <li>Jquery</li>
+                    <li>Gsap</li>
                   </ul>
 
                   <ul>
-                    <li>webpack</li>
-                    <li>express</li>
-                    <li>npm</li>
-                    <li>wordpress</li>
-                    <li>git/github</li>
+                    <li>OOP</li>
+                    <li>Webpack</li>
+                    <li>React</li>
+                    <li>Wordpress</li>
+                    <li>Git/github</li>
                   </ul>
                   <ul>
                     <li>Currently learning:</li>
-                    <li>react/redux</li>
-                    <li>vanilla javascript</li>
+                    <li>Redux</li>
+                    <li>Express</li>
                   </ul>
                 </div>
               </Col>

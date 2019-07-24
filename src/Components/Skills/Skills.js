@@ -23,22 +23,29 @@ class Skills extends Component {
                     <li>Bootstrap</li>
                     <li>Css Animations</li>
                     <li>Vanilla Javascript</li>
+                    <li>OOP</li>
                     <li>Es6</li>
+                    <li>React JS</li>
+                    <li>Vue JS</li>
                     <li>Jquery</li>
                     <li>Gsap</li>
                   </ul>
 
                   <ul>
-                    <li>OOP</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
                     <li>Webpack</li>
-                    <li>React</li>
+                    <li>Grunt/Gulp</li>
                     <li>Wordpress</li>
+                    <li>power BI</li>
                     <li>Git/github</li>
                   </ul>
                   <ul>
                     <li>Currently learning:</li>
-                    <li>Redux</li>
-                    <li>Express</li>
+                    <li>Redux / Vuex</li>
+                    <li>GraphQL</li>
+                    <li>NodeJS-Express</li>
+                    <li>Python-Django</li>
                   </ul>
                 </div>
               </Col>
@@ -59,6 +66,7 @@ class Skills extends Component {
                     <li>Adobe Illustrator</li>
                     <li>Adobe Photoshop</li>
                     <li>Sketch</li>
+                    <li>Figma</li>
                     <li>Mokeup</li>
                     <li>Logo Design</li>
                     <li>Icon Design</li>
@@ -90,6 +98,14 @@ class Skills extends Component {
                         height={500}
                         alt="900x500"
                         src={require("../../Assets/img/m3.jpg")}
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        width={900}
+                        height={500}
+                        alt="900x500"
+                        src={require("../../Assets/img/m4.jpg")}
                       />
                     </Carousel.Item>
                   </Carousel>

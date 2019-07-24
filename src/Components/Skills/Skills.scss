@@ -37,7 +37,7 @@
   }
 }
 .graphics {
-  margin-top: 400px;
+  margin-top: 350px;
   @media screen and (max-width: 414px) {
     margin-top: -50px;
   }
@@ -55,4 +55,7 @@
       font-size: 18px;
     }
   }
+}
+.carousel {
+  min-height: 400px;
 }

@@ -3,6 +3,11 @@ import { Grid, Row, Col, Image } from "react-bootstrap";
 import "./AboutMe.scss";
 import { BlueBox } from "../Bluebox.style";
 class AboutMe extends Component {
+  handleClick = e => {
+    window.open(
+      "https://drive.google.com/file/d/1m3zLibyaX4zbE6i1hhBfwd4-8DfF4dsq/view?usp=sharing"
+    );
+  };
   render() {
     return (
       <div className="AboutMe">
@@ -31,17 +36,11 @@ class AboutMe extends Component {
                 design creativity and develop my skills and gain experience in a
                 challenging and rewarding career.
               </p>
-              <div className="button download-btn">
+
+              <div className="button download-btn" onClick={this.handleClick}>
                 <span className="button__mask" />
                 <span className="button__text">download C.V</span>
-                <span className="button__text button__text--bis">
-                  <a
-                    target="blank"
-                    href="https://drive.google.com/file/d/1wJj13WSxNl1EwgGIH3oakE3MOXSiG1Bk/view"
-                  >
-                    download C.V
-                  </a>
-                </span>
+                <span className="button__text button__text--bis" />
               </div>
             </Col>
             <Col sm={6} md={6} xsHidden>

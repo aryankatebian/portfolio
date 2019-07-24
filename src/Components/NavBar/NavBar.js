@@ -22,22 +22,22 @@ class NavBar extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem eventKey={1}>
+              <NavItem eventKey={1} componentClass="span">
                 <Link to="/aboutme" className="my-link">
                   About Me
                 </Link>
               </NavItem>
-              <NavItem eventKey={2}>
+              <NavItem eventKey={2} componentClass="span">
                 <Link to="/skills" className="my-link">
                   Skills
                 </Link>
               </NavItem>
-              <NavItem eventKey={3}>
+              <NavItem eventKey={3} componentClass="span">
                 <Link to="/projects" className="my-link">
                   Projects
                 </Link>
               </NavItem>
-              <NavItem eventKey={4}>
+              <NavItem eventKey={4} componentClass="span">
                 <Link to="/contactme" className="my-link">
                   Contact Me
                 </Link>

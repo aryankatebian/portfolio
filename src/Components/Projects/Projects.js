@@ -41,7 +41,7 @@ class Projects extends Component {
               onSelect={key => this.handleSelect(key)}
             >
               <NavItem eventKey={1} title="Item1" className="mytab">
-                Vanilla Javascript
+                Small Projects
               </NavItem>
 
               <NavItem eventKey={2} title="Item2" className="mytab">

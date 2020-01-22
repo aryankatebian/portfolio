@@ -7,7 +7,7 @@ import { BlueBox } from '../Bluebox.style';
 class AboutMe extends Component {
   handleClick = e => {
     window.open(
-      'https://drive.google.com/file/d/1m3zLibyaX4zbE6i1hhBfwd4-8DfF4dsq/view?usp=sharing'
+      'https://drive.google.com/file/d/1cUiekwD5XGuDYavLBfem0x4VOm1GcxT5/view?usp=sharing'
     );
   };
   render() {

@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 const start = keyframes`
 
@@ -15,8 +15,7 @@ const start = keyframes`
 
 export const BlueBox = styled.div`
   animation: ${start} ease-in-out 1s forwards;
-
-  margin-top: 40px;
+ 
   transform: translateX(-400px);
   background-color: #3bc2d3;
   color: rgb(218, 223, 225);

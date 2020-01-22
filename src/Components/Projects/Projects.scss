@@ -3,25 +3,58 @@
   margin-left: 0%;
   margin-right: 0%;
 }
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  margin: 0 4%;
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+}
 .col {
-  min-height: 394px;
-  background-color: #212121;
-  border: #3e3e3e 2px solid;
-  border-radius: 18% 2% 18% 2%;
-  -webkit-box-shadow: -1px 1px 6px -1px rgba(209, 209, 209, 0.65);
-  box-shadow: -1px 1px 6px -1px rgba(209, 209, 209, 0.65);
-}
-.thumbnail > img {
-  border-radius: 23% 2% 20% 2%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
 
-  max-height: 200px;
+  background-color: #151515;
+  border: #3e3e3e 2px;
+
+  filter: drop-shadow(0px 0px 1.2px #3bc2d3);
+  transition: transform 300ms ease-in-out;
+  &:hover {
+    filter: drop-shadow(2px 2px 2px black);
+    transform: scale(1.015);
+    .caption {
+      display: grid;
+    }
+  }
+  a {
+    border: 0;
+  }
 }
+.caption {
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 50%;
+  background-color: #000000b9;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  display: none;
+}
+
 .col a {
   margin-top: 15px;
 }
 .my-h3 {
   color: white;
-  padding-bottom: 7.5px;
+  @media screen and (max-width: 1350px) {
+    font-size: 1.5rem;
+  }
 }
 .mytab {
   font-size: 2rem;
@@ -34,4 +67,14 @@
 .nav > li > a:focus,
 .nav > li > a:hover {
   background-color: #131313;
+}
+
+.text-white {
+  color: white;
+  @media screen and (max-width: 1350px) {
+    font-size: 1.2rem;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 1rem;
+  }
 }

@@ -1,16 +1,21 @@
 .my-link {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
   &:hover {
-    color: #3bc2d3;
     text-decoration: none;
   }
+}
+.activee {
+  color: #3bc2d3 !important;
 }
 
 .logo {
   color: #3bc2d3 !important;
   &:hover {
-    transform: scale(0.9);
+    transform: scale(1.04);
   }
 }
 
@@ -19,7 +24,7 @@ link:active {
   text-decoration: none;
 }
 
-.navbar-nav span[role="button"] {
+.navbar-nav span[role='button'] {
   padding: 15px;
   display: inline-block;
   line-height: 20px;

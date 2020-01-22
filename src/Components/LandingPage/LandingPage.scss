@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 @font-face {
-  font-family: "nintendo";
-  src: url("../../Assets/fonts/Ninety-Seven.otf");
+  font-family: 'nintendo';
+  src: url('../../Assets/fonts/Ninety-Seven.otf');
 }
 
 .LandingPage {
@@ -13,7 +13,7 @@
   margin-top: -20px;
 }
 .title {
-  font-family: "nintendo";
+  font-family: 'nintendo';
   color: rgb(236, 236, 236);
   font-size: 4.5em;
 
@@ -124,7 +124,7 @@
   height: 60%;
   position: absolute;
   right: 0;
-  bottom: 10%;
+  bottom: 0;
   @media screen and (max-width: 991px) {
     visibility: hidden;
   }
@@ -133,8 +133,8 @@
   transform: translateX(-75%);
   height: 40%;
   position: absolute;
-  right: 0;
-  bottom: 24%;
+  right: 2px;
+  bottom: 8%;
 
   @media screen and (max-width: 991px) {
     visibility: hidden;

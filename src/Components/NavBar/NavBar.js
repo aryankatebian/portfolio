@@ -1,20 +1,25 @@
-import React, { Component } from "react";
-import { Navbar, Nav, NavItem } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import "./NavBar.scss";
+import React, { Component } from 'react';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+
+import { Link } from 'react-router-dom';
+import './NavBar.scss';
 
 class NavBar extends Component {
+  state = {
+    eventKey: 0
+  };
   render() {
+    console.log(this.state);
     return (
-      <div className="NavBar">
-        <Navbar inverse collapseOnSelect style={{ backgroundColor: "black" }}>
+      <div className='NavBar'>
+        <Navbar inverse collapseOnSelect style={{ backgroundColor: 'black' }}>
           <Navbar.Header>
-            <Navbar.Brand className="logo">
-              <a href="/portfolio">
+            <Navbar.Brand className='logo'>
+              <a href='/portfolio'>
                 <img
-                  src={require("../../Assets/img/alien3.png")}
-                  style={{ height: "50px", marginTop: "-15px" }}
-                  alt="home"
+                  src={require('../../Assets/img/alien3.png')}
+                  style={{ height: '50px', marginTop: '-15px' }}
+                  alt='home'
                 />
               </a>
             </Navbar.Brand>
@@ -22,23 +27,37 @@ class NavBar extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem eventKey={1} componentClass="span">
-                <Link to="/aboutme" className="my-link">
+              <NavItem componentClass='span'>
+                <Link
+                  onClick={() => this.setState({ eventKey: 1 })}
+                  to='/aboutme'
+                  className={
+                    this.state.eventKey === 1 ? 'my-link activee' : 'my-link'
+                  }
+                >
                   About Me
                 </Link>
               </NavItem>
-              <NavItem eventKey={2} componentClass="span">
-                <Link to="/skills" className="my-link">
-                  Skills
-                </Link>
-              </NavItem>
-              <NavItem eventKey={3} componentClass="span">
-                <Link to="/projects" className="my-link">
+
+              <NavItem componentClass='span'>
+                <Link
+                  onClick={() => this.setState({ eventKey: 2 })}
+                  to='/projects'
+                  className={
+                    this.state.eventKey === 2 ? 'my-link activee' : 'my-link'
+                  }
+                >
                   Projects
                 </Link>
               </NavItem>
-              <NavItem eventKey={4} componentClass="span">
-                <Link to="/contactme" className="my-link">
+              <NavItem componentClass='span'>
+                <Link
+                  onClick={() => this.setState({ eventKey: 3 })}
+                  to='/contactme'
+                  className={
+                    this.state.eventKey === 3 ? 'my-link activee' : 'my-link'
+                  }
+                >
                   Contact Me
                 </Link>
               </NavItem>

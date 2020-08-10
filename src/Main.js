@@ -9,10 +9,10 @@ import LandingPage from './Components/LandingPage/LandigPage';
 const Main = () => (
   <Switch>
     <Route exact path='/' component={LandingPage} />
-    <Route path='/portfolio' component={LandingPage} />
-    <Route path='/aboutme' component={AboutMe} />
-    <Route path='/projects' component={Projects} />
-    <Route path='/contactme' component={ContactMe} />
+    <Route exact path='/portfolio' component={LandingPage} />
+    <Route exact path='/aboutme' component={AboutMe} />
+    <Route exact path='/projects' component={Projects} />
+    <Route exact path='/contactme' component={ContactMe} />
   </Switch>
 );
 

@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500');
 .AboutMe {
-  margin-top: -20px;
   overflow: hidden;
 }
 .me {
@@ -18,7 +17,7 @@
   }
 }
 .myh1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   transform: translateY(-250px);
   font-weight: 800;
   font-size: 7.2em;

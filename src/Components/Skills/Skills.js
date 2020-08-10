@@ -37,7 +37,7 @@ class Skills extends Component {
                 <li>MongoDB</li>
                 <li>Webpack</li>
                 <li>Grunt/Gulp</li>
-                <li>Wordpress</li>
+                <li>Wordpress/php</li>
                 <li>power BI</li>
                 <li>Git/github</li>
                 <li>Unit/Integration Testing</li>
@@ -59,7 +59,7 @@ class Skills extends Component {
               Graphic <br />
               Design.
             </div>
-            <div className='coding'>
+            <div className='coding design'>
               <div className='graphic-ul'>
                 <ul>
                   <li>Adobe Illustrator</li>
@@ -76,32 +76,28 @@ class Skills extends Component {
                 <Carousel>
                   <Carousel.Item>
                     <img
-                      width={900}
-                      height={500}
+                      className="img"
                       alt='900x500'
                       src={require('../../Assets/img/m1.jpg')}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      width={900}
-                      height={500}
+                      className="img"
                       alt='900x500'
                       src={require('../../Assets/img/m2.jpg')}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      width={900}
-                      height={500}
+                      className="img"
                       alt='900x500'
                       src={require('../../Assets/img/m3.jpg')}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      width={900}
-                      height={500}
+                      className="img"
                       alt='900x500'
                       src={require('../../Assets/img/m4.jpg')}
                     />

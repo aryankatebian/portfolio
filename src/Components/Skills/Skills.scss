@@ -70,7 +70,18 @@
 }
 .coding {
   display: flex;
-
-  margin: auto;
-  width: fit-content;
+ 
+  @media screen and (max-width: 992px) {
+    display: block;
+  }
+  &.design{
+    margin-top: -150px;
+  }
+}
+.graphic-ul , .graphics {
+  width: 100%;
+}
+.img{
+  width: 900px;
+  height: 500px !important;
 }

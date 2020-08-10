@@ -14,9 +14,9 @@ class LandingPage extends Component {
             Hi!
             <br />I am Aryan,
             <br />
-            Web Developer.
+            Full Stack Developer.
             <br />
-            <h3>Front-end Developer / Javascript / React</h3>
+            <h3>Node js / React js  </h3>
           </Typing>
           <SocialBar />
         </div>
